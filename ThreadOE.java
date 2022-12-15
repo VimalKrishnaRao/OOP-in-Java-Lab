@@ -41,7 +41,7 @@ class Even extends Thread
 	}
     public void run() 
     {
-        for (int i=0; i<number;i++)
+        for (int i=1; i<number;i++)
         if (i%2==0)
 		    System.out.println(i);
 	}
@@ -57,13 +57,13 @@ class Odd extends Thread
 	}
     public void run() 
 	{
-		for (int i=0; i<number;i++)
+		for (int i=1; i<number;i++)
         if (i%2!=0)
 		    System.out.println(i);
 	}
 }
 
-public class MultiThreadingTest 
+public class MultiThreadingTest
 {
 	public static void main(String args[]) 
 	{
