@@ -12,6 +12,6 @@ class CharacterSearch
 		if (index!=-1)
 			System.out.println("Character "+c+" is present in the string "+str);
 		else
-			System.out.println("Character "+c+" is present in the string "+str);
+			System.out.println("Character "+c+" is not present in the string "+str);
 	}
 }
