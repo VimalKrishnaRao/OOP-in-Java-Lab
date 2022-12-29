@@ -43,3 +43,6 @@ public class Main
     employee.calcSalary();
   }
 }
+
+//In this example, I assumed that you wanted the Engineer class to override the calcSalary() method of the Employee class. 
+//If you want the Engineer class to simply inherit the calcSalary() method from the Employee class, you can remove the override annotation and the implementation of calcSalary() in the Engineer class.
