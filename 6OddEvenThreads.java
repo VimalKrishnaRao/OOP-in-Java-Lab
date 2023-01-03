@@ -4,7 +4,7 @@ class OddThread extends Thread
   {
     for (int i = 1; i <= 100; i += 2) 
     {
-      System.out.println(i);
+      System.out.print(i+” “);
     }
   }
 }
@@ -15,7 +15,7 @@ class EvenThread extends Thread
   {
     for (int i = 2; i <= 100; i += 2) 
     {
-      System.out.println(i);
+      System.out.print(i+” “);
     }
   }
 }
